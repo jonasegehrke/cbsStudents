@@ -1,0 +1,48 @@
+@model cbsStudents.Models.Entities.EventIndexVm
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Event</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Title
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Event.Title
+        </dd>
+        <dt class = "col-sm-2">
+            Start Date
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Event.StartDate
+        </dd>
+        <dt class = "col-sm-2">
+            End Date
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Event.EndDate
+        </dd>
+        <dt class = "col-sm-2">
+            Discription
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Event.Description
+        </dd>
+        <dt class = "col-sm-2">
+            Location
+        </dt>
+        <dd class = "col-sm-10">
+            @Model.Event.Room.Location
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Event.EventId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

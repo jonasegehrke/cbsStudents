@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\cbsStudents.csproj": {}
+    "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\cbsStudents.csproj": {
+    "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\cbsStudents.csproj",
+        "projectUniqueName": "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj",
         "projectName": "cbsStudents",
-        "projectPath": "C:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\cbsStudents.csproj",
+        "projectPath": "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj",
         "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\obj\\",
+        "outputPath": "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -50,15 +50,15 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SQLite": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -68,7 +68,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[6.0.3, )"
             }
           },
           "imports": [
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

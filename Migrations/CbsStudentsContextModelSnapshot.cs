@@ -15,7 +15,7 @@ namespace cbsStudents.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "6.0.3");
+            modelBuilder.HasAnnotation("ProductVersion", "6.0.4");
 
             modelBuilder.Entity("cbsStudents.Models.Entities.Comment", b =>
                 {
@@ -42,6 +42,39 @@ namespace cbsStudents.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Comment");
+                });
+
+            modelBuilder.Entity("cbsStudents.Models.Entities.Event", b =>
+                {
+                    b.Property<int>("EventId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("RoomId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("EventId");
+
+                    b.HasIndex("RoomId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Event");
                 });
 
             modelBuilder.Entity("cbsStudents.Models.Entities.Post", b =>
@@ -72,6 +105,47 @@ namespace cbsStudents.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Post");
+                });
+
+            modelBuilder.Entity("cbsStudents.Models.Entities.Room", b =>
+                {
+                    b.Property<int>("RoomId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Location")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("RoomId");
+
+                    b.ToTable("Room");
+
+                    b.HasData(
+                        new
+                        {
+                            RoomId = 1,
+                            Location = "Palo Alto"
+                        },
+                        new
+                        {
+                            RoomId = 2,
+                            Location = "Mountain View"
+                        },
+                        new
+                        {
+                            RoomId = 3,
+                            Location = "Sunnyvale"
+                        },
+                        new
+                        {
+                            RoomId = 4,
+                            Location = "Los Altos"
+                        },
+                        new
+                        {
+                            RoomId = 5,
+                            Location = "Cupertino"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -283,6 +357,23 @@ namespace cbsStudents.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("cbsStudents.Models.Entities.Event", b =>
+                {
+                    b.HasOne("cbsStudents.Models.Entities.Room", "Room")
+                        .WithMany("Events")
+                        .HasForeignKey("RoomId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("Room");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("cbsStudents.Models.Entities.Post", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
@@ -346,6 +437,11 @@ namespace cbsStudents.Migrations
             modelBuilder.Entity("cbsStudents.Models.Entities.Post", b =>
                 {
                     b.Navigation("Comments");
+                });
+
+            modelBuilder.Entity("cbsStudents.Models.Entities.Room", b =>
+                {
+                    b.Navigation("Events");
                 });
 #pragma warning restore 612, 618
         }
