@@ -37,13 +37,12 @@ namespace cbsStudents.Controllers
                 SearchString = "";
             }
 
-            var posts = from p in _context.Post select p;
+            var posts = _context.Post.Include(u => u.User).Where(x => x.Title.Contains(SearchString));
 
-    
-            posts = posts.Where(x => x.Title.Contains(SearchString));
             ViewBag.SearchString = SearchString;
 
-            var vm = new PostIndexVm{
+            var vm = new PostIndexVm
+            {
                 Posts = posts.ToList(),
                 SearchString = SearchString
             };
@@ -55,12 +54,18 @@ namespace cbsStudents.Controllers
         // GET: Posts/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-             Post p = _context.Post.Include(x => x.Comments).ThenInclude(x => x.User).First(x => x.Id == id);
+            Post p = _context.Post.Include(u => u.User).Include(x => x.Comments).ThenInclude(x => x.User).First(x => x.Id == id);
 
-            return View(p);
+            var vm = new PostIndexVm
+            {
+                Post = p
+            };
+
+            return View(vm);
         }
 
         // GET: Posts/Create
+
         public IActionResult Create()
         {
             return View();
@@ -87,12 +92,14 @@ namespace cbsStudents.Controllers
             return View(post);
         }
 
+        
+
         // GET: Posts/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
 
             Post p = _context.Post.Include(x => x.Comments).ThenInclude(x => x.User).First(x => x.Id == id);
-    
+
             return View(p);
         }
 
@@ -164,5 +171,17 @@ namespace cbsStudents.Controllers
         {
             return _context.Post.Any(e => e.Id == id);
         }
+
+
+        public IActionResult RedirectToCreateComment(int Id){
+            return RedirectToAction("Create", "Comments", new { PostId = Id });
+        }
+        
+        public IActionResult RedirectToDeleteComment(int Id){
+            return RedirectToAction("Delete", "Comments", new { id = Id });
+        }
+
     }
+
+    
 }

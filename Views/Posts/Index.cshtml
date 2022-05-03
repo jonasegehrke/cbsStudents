@@ -20,7 +20,7 @@
     <thead>
         <tr>
 
-            <th>UserId</th>
+            <th>User</th>
             <th>Title</th>
             <th>Text</th>
             <th>Created</th>
@@ -47,7 +47,7 @@
 @foreach (var item in Model.Posts) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.UserId)
+                @Html.DisplayFor(modelItem => item.User.UserName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Title)
@@ -64,7 +64,8 @@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-action="RedirectToCreateComment" asp-route-id="@item.Id">Add comment</a>
             </td>
         </tr>
 }

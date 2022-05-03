@@ -17,6 +17,7 @@
             <th>End Date</th>
             <th>Description</th>
             <th>RoomId</th>
+            <th>User</th>
         </tr>
     </thead>
     <tbody>
@@ -36,6 +37,9 @@
             </td>
             <td>
                 @item.Room.Location
+            </td>
+            <td>
+                @item.User.UserName
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.EventId">Edit</a> |

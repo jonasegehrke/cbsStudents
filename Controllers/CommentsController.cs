@@ -26,10 +26,9 @@ namespace cbsStudents.Controllers
         }
 
         // GET: Comments
-        public async Task<IActionResult> Index()
+        public IActionResult RedirectToPostDetails(int id)
         {
-            var cbsStudentsContext = _context.Comment.Include(c => c.Post);
-            return View(await cbsStudentsContext.ToListAsync());
+            return RedirectToAction("Details", "Posts", new { id = id });
         }
 
         // GET: Comments/Details/5
@@ -52,9 +51,9 @@ namespace cbsStudents.Controllers
         }
 
         // GET: Comments/Create
-        public IActionResult Create()
+        public IActionResult Create(int PostId)
         {
-            ViewData["PostId"] = new SelectList(_context.Post, "Id", "Text");
+            ViewData["PostId"] = PostId;
             return View();
         }
 
@@ -73,10 +72,10 @@ namespace cbsStudents.Controllers
                 IdentityUser user = await _userManager.FindByNameAsync(HttpContext.User.Identity.Name);
                 comment.User = user;
                 comment.TimeStamp = DateTime.Now;
-                
+
                 _context.Add(comment);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", "Posts", new { id = comment.PostId });
             }
             ViewData["PostId"] = new SelectList(_context.Post, "Id", "Text", comment.PostId);
             return View(comment);
@@ -162,7 +161,7 @@ namespace cbsStudents.Controllers
             var comment = await _context.Comment.FindAsync(id);
             _context.Comment.Remove(comment);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Details", "Posts", new { id = comment.PostId });
         }
 
         private bool CommentExists(int id)

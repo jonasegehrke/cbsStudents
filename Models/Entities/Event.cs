@@ -12,7 +12,7 @@ public class Event
     public string? Description { get; set; }
     public int RoomId { get; set; }
     public Room? Room { get; set; }
-
+    public string? UserId { get; set; }
     public IdentityUser? User { get; set; }
 
 }
