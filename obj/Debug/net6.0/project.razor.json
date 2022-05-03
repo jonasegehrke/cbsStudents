@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\cbsStudents.csproj",
+  "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,128 +16298,178 @@
   "RootNamespace": "cbsStudents",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Room\\Details.cshtml",
+      "TargetPath": "Views\\Room\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Posts\\Edit.cshtml",
-      "TargetPath": "Views\\Posts\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Posts\\Details.cshtml",
-      "TargetPath": "Views\\Posts\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Comments\\Delete.cshtml",
-      "TargetPath": "Views\\Comments\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Comments\\Details.cshtml",
-      "TargetPath": "Views\\Comments\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Posts\\Create.cshtml",
-      "TargetPath": "Views\\Posts\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Comments\\Edit.cshtml",
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Comments\\Edit.cshtml",
       "TargetPath": "Views\\Comments\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Event\\Delete.cshtml",
+      "TargetPath": "Views\\Event\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Comments\\Index.cshtml",
-      "TargetPath": "Views\\Comments\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Posts\\Index.cshtml",
-      "TargetPath": "Views\\Posts\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Posts\\Delete.cshtml",
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Posts\\Delete.cshtml",
       "TargetPath": "Views\\Posts\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\jonas\\4 Semester\\C#MVC\\v3\\cbsStudents\\Views\\Comments\\Create.cshtml",
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Room\\Edit.cshtml",
+      "TargetPath": "Views\\Room\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Room\\Delete.cshtml",
+      "TargetPath": "Views\\Room\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Posts\\Edit.cshtml",
+      "TargetPath": "Views\\Posts\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Posts\\Create.cshtml",
+      "TargetPath": "Views\\Posts\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Posts\\Details.cshtml",
+      "TargetPath": "Views\\Posts\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Comments\\Index.cshtml",
+      "TargetPath": "Views\\Comments\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Event\\Details.cshtml",
+      "TargetPath": "Views\\Event\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Room\\Index.cshtml",
+      "TargetPath": "Views\\Room\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Comments\\Create.cshtml",
       "TargetPath": "Views\\Comments\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Posts\\Index.cshtml",
+      "TargetPath": "Views\\Posts\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Event\\Index.cshtml",
+      "TargetPath": "Views\\Event\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Event\\Create.cshtml",
+      "TargetPath": "Views\\Event\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Room\\Create.cshtml",
+      "TargetPath": "Views\\Room\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Event\\Edit.cshtml",
+      "TargetPath": "Views\\Event\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Comments\\Delete.cshtml",
+      "TargetPath": "Views\\Comments\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Comments\\Details.cshtml",
+      "TargetPath": "Views\\Comments\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
