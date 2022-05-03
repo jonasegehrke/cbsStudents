@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/cbsStudents.csproj": {}
+    "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj": {}
   },
   "projects": {
-    "/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/cbsStudents.csproj": {
+    "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/cbsStudents.csproj",
+        "projectUniqueName": "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj",
         "projectName": "cbsStudents",
-        "projectPath": "/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/cbsStudents.csproj",
-        "packagesPath": "/Users/jacobgadeharder/.nuget/packages/",
-        "outputPath": "/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/obj/",
+        "projectPath": "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj",
+        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jacobgadeharder/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

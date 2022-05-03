@@ -16303,11 +16303,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Comments\\Edit.cshtml",
-      "TargetPath": "Views\\Comments\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Event\\Delete.cshtml",
       "TargetPath": "Views\\Event\\Delete.cshtml",
       "FileKind": "mvc"
@@ -16360,11 +16355,6 @@
     {
       "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Posts\\Details.cshtml",
       "TargetPath": "Views\\Posts\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Comments\\Index.cshtml",
-      "TargetPath": "Views\\Comments\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16465,11 +16455,6 @@
     {
       "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Comments\\Delete.cshtml",
       "TargetPath": "Views\\Comments\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\Views\\Comments\\Details.cshtml",
-      "TargetPath": "Views\\Comments\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],

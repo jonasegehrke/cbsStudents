@@ -77,7 +77,7 @@ namespace cbsStudents.Controllers
 
         public IActionResult Create()
         {
-            ViewData["RoomId"] = new SelectList(_context.Room, "RoomId", "RoomId");
+            ViewData["Location"] = new SelectList(_context.Room, "RoomId", "Location");
             return View();
         }
 
