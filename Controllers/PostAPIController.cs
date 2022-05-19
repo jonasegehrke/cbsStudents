@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using cbsStudents.Data;
 using cbsStudents.Models.Entities;
+using Microsoft.AspNetCore.Identity;
 
 namespace cbsStudents.Controllers
 {
@@ -25,7 +26,8 @@ namespace cbsStudents.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Post>>> GetPost()
         {
-            return await _context.Post.ToListAsync();
+            var posts = await _context.Post.Include(p => p.User).Include(p => p.Comments).ToListAsync();
+            return posts;
         }
 
         // GET: api/PostAPI/5

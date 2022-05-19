@@ -16,7 +16,7 @@ builder.Services.AddDbContext<CbsStudentsContext>(options =>
 options.UseSqlite("CbsStudentsContext"));
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddNewtonsoftJson(option => option.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
 var app = builder.Build();
 

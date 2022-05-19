@@ -1166,3 +1166,6 @@ C:/Users/jonas/4_Semester/net/cbsStudents/obj/Debug/net6.0/ref/cbsStudents.dll
 /Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/obj/Debug/net6.0/ref/cbsStudents.dll
 /Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/obj/Debug/net6.0/cbsStudents.pdb
 /Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/obj/Debug/net6.0/cbsStudents.genruntimeconfig.cache
+/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
