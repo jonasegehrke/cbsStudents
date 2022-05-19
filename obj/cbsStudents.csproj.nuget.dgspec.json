@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/cbsStudents.csproj": {}
+    "/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/cbsStudents.csproj": {}
   },
   "projects": {
-    "/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/cbsStudents.csproj": {
+    "/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/cbsStudents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/cbsStudents.csproj",
+        "projectUniqueName": "/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/cbsStudents.csproj",
         "projectName": "cbsStudents",
-        "projectPath": "/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/cbsStudents.csproj",
-        "packagesPath": "/Users/andreasholmandersen/.nuget/packages/",
-        "outputPath": "/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/obj/",
+        "projectPath": "/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/cbsStudents.csproj",
+        "packagesPath": "/Users/jacobgadeharder/.nuget/packages/",
+        "outputPath": "/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/andreasholmandersen/.nuget/NuGet/NuGet.Config"
+          "/Users/jacobgadeharder/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -93,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -26,7 +26,7 @@ namespace cbsStudents.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Post>>> GetPost()
         {
-            var posts = await _context.Post.Include(p => p.User).Include(p => p.Comments).ToListAsync();
+            var posts = await _context.Post.Include(p => p.Comments).ToListAsync();
             return posts;
         }
 

@@ -8,137 +8,137 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = cbsStudents
 build_property.RootNamespace = cbsStudents
-build_property.ProjectDir = /Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/
+build_property.ProjectDir = /Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents
+build_property.MSBuildProjectDirectory = /Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Areas/Identity/Pages/Account/Login.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Areas/Identity/Pages/Account/Logout.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Areas/Identity/Pages/Account/Register.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Areas/Identity/Pages/_ViewImports.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Areas/Identity/Pages/_ViewStart.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Comments/Create.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Comments/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tbWVudHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Comments/Delete.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Comments/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tbWVudHMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Event/Create.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Event/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnQvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Event/Delete.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Event/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnQvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Event/Details.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Event/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnQvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Event/Edit.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Event/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnQvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Event/Index.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Event/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRXZlbnQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Home/Index.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Home/Privacy.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Posts/Create.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Posts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdHMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Posts/Delete.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Posts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdHMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Posts/Details.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Posts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdHMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Posts/Edit.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Posts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdHMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Posts/Index.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Posts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9zdHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Room/Create.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Room/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Room/Delete.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Room/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbS9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Room/Details.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Room/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbS9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Room/Edit.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Room/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbS9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Room/Index.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Room/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Shared/Error.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Shared/_LoginPartial.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/_ViewImports.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/_ViewStart.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/Views/Shared/_Layout.cshtml]
+[/Users/jacobgadeharder/valgfag/dotnetvalgfag/cbsStudents/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-33sodz1bn3
