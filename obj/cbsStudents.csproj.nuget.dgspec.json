@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj": {}
+    "/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/cbsStudents.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj": {
+    "/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/cbsStudents.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj",
+        "projectUniqueName": "/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/cbsStudents.csproj",
         "projectName": "cbsStudents",
-        "projectPath": "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\cbsStudents.csproj",
-        "packagesPath": "C:\\Users\\jonas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonas\\4_Semester\\net\\cbsStudents\\obj\\",
+        "projectPath": "/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/cbsStudents.csproj",
+        "packagesPath": "/Users/andreasholmandersen/.nuget/packages/",
+        "outputPath": "/Users/andreasholmandersen/Documents/KEA/Eksamen/4. Semester/dotnet/cbsStudents/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jonas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/andreasholmandersen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
